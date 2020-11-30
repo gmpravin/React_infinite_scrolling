@@ -1,0 +1,31 @@
+.text-center {
+  text-align: center;
+}
+
+.book {
+  display: flex;
+  justify-content: space-around;
+  height: auto;
+  background: #031854;
+  border-radius: 15px;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.book-title {
+  color: white;
+}
+
+.book-year {
+  color: rgb(172, 172, 172);
+}
+
+.book-body {
+  flex: 1;
+}
+
+.book-icon {
+  color: white;
+  font-size: 50px;
+  margin: 0 1rem 0 1rem;
+}
