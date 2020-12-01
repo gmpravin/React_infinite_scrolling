@@ -40,7 +40,6 @@ export default function App() {
           placeholder={'programmer'}
         />
       </div>
-      {loading && <center>Loading..</center>}
       {error && 'Error...'}
       {books.map((book, index) => {
         if (books.length === index + 1) {
@@ -55,6 +54,7 @@ export default function App() {
           );
         }
       })}
+      {loading && <center>Loading..</center>}
     </div>
   );
 }
